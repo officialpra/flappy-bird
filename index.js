@@ -31,7 +31,7 @@ var fall = setInterval(function () {
     score = 0;
   }
 }, 10);
-window.addEventListener('keydown',hop)
+window.addEventListener('touchstart',hop)
 function hop(){
   jumping=1;
   var birdtop = parseInt(window.getComputedStyle(bird).getPropertyValue("top"));
