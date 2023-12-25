@@ -28,7 +28,7 @@ var fall = setInterval(function () {
     result.style.display = "block";
     text.innerText = `your final score is ${score}`;
     game.style.display = "none";
-    // score = 0;
+    
   }
 }, 10);
 window.addEventListener('touchstart',hop)
